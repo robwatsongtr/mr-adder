@@ -4,11 +4,9 @@
 
 const andTwoBinaryNumbers = (num1, num2) => {
 
-  const a = num1
-  const b = num2
-  let anding = a & b
+  let anding = num1 & num2 // bitwise and num1 and num2 
 
-  return anding.toString(2)
+  return anding.toString(2) // output base 2
 
 }
 
